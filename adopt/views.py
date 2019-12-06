@@ -56,7 +56,6 @@ def edit_pet(request,pet_id):
 
     context = {
             'form':form,
-            'jazz',True,
     }
 
     return render(request,'adopt/edit.html',context)
